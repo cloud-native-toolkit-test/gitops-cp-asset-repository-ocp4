@@ -1,0 +1,15 @@
+"ibmassetrepoinstance":
+  "assetrepo":
+    "name": "assetrepo"
+    "spec":
+      "license":
+        "accept": true
+        "license": "L-PNAA-C68928"
+      "replicas": 1
+      "storage":
+        "assetDataVolume":
+          "class": "portworx-rwx-gp-sc"
+        "couchVolume":
+          "class": "portworx-db2-rwo-sc"
+      "version": "2021.4.1"
+
